@@ -1,0 +1,111 @@
+{
+	"Vertices": [
+		{
+			"Id": 1,
+			"Type": 0,
+			"Content": "Start"
+		},
+		{
+			"Id": 2,
+			"Type": 4,
+			"Content": "A[n]"
+		},
+		{
+			"Id": 3,
+			"Type": 2,
+			"Content": "i=1"
+		},
+		{
+			"Id": 4,
+			"Type": 2,
+			"Content": "max=A(i)"
+		},
+		{
+			"Id": 5,
+			"Type": 2,
+			"Content": "i=i+1"
+		},
+		{
+			"Id": 6,
+			"Type": 3,
+			"Content": "i<=n"
+		},
+		{
+			"Id": 7,
+			"Type": 3,
+			"Content": "max<A(i)"
+		},
+		{
+			"Id": 8,
+			"Type": 2,
+			"Content": "max=A(i)"
+		},
+		{
+			"Id": 9,
+			"Type": 5,
+			"Content": "max"
+		},
+		{
+			"Id": 10,
+			"Type": 1,
+			"Content": "End"
+		}
+	],
+	"Edges": [
+		{
+			"From": 1,
+			"To": 2,
+			"Type": 2
+		},
+		{
+			"From": 2,
+			"To": 3,
+			"Type": 2
+		},
+		{
+			"From": 3,
+			"To": 4,
+			"Type": 2
+		},
+		{
+			"From": 4,
+			"To": 5,
+			"Type": 2
+		},
+		{
+			"From": 5,
+			"To": 6,
+			"Type": 2
+		},
+		{
+			"From": 6,
+			"To": 7,
+			"Type": 1
+		},
+		{
+			"From": 6,
+			"To": 9,
+			"Type": 0
+		},
+		{
+			"From": 7,
+			"To": 8,
+			"Type": 1
+		},
+		{
+			"From": 7,
+			"To": 5,
+			"Type": 0
+		},
+		{
+			"From": 8,
+			"To": 5,
+			"Type": 2
+		},
+		{
+			"From": 9,
+			"To": 10,
+			"Type": 2
+		}
+	]
+}
